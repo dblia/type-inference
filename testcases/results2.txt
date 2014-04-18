@@ -1,0 +1,103 @@
+@0 -> @0
+@0 -> @1 -> @1
+@0 -> @1 -> @0
+type error
+@0 -> @1 -> @2 -> @2
+@0 -> @1 -> @2 -> @1
+@0 -> @1 -> @2 -> @0
+type error
+@0 -> (@0 -> @1) -> @1
+(@0 -> @1) -> @0 -> @1
+type error
+((@0 -> @0) -> @1) -> @1
+type error
+type error
+@0 -> @0
+@0 -> @0
+type error
+@0 -> @0
+@0 -> @1 -> @2 -> @3 -> @3
+@0 -> @1 -> @2 -> @3 -> @2
+@0 -> @1 -> @2 -> @3 -> @1
+@0 -> @1 -> @2 -> @3 -> @0
+type error
+@0 -> @1 -> (@1 -> @2) -> @2
+@0 -> @1 -> (@0 -> @2) -> @2
+@0 -> (@1 -> @2) -> @1 -> @2
+type error
+@0 -> (@0 -> @1) -> @2 -> @1
+(@0 -> @1) -> @2 -> @0 -> @1
+(@0 -> @1) -> @0 -> @2 -> @1
+type error
+@0 -> ((@1 -> @1) -> @2) -> @2
+type error
+@0 -> ((@1 -> @0) -> @2) -> @2
+type error
+@0 -> (@0 -> @0) -> @0
+((@0 -> @1) -> @0) -> (@0 -> @1) -> @1
+type error
+((@0 -> @0) -> @1) -> @2 -> @1
+((@0 -> @1) -> @2) -> @1 -> @2
+type error
+type error
+(@0 -> @1) -> ((@0 -> @1) -> @0) -> @1
+(@0 -> @0) -> @0 -> @0
+type error
+@0 -> @1 -> @1
+@0 -> @1 -> @0
+@0 -> @1 -> @1
+@0 -> @1 -> @1
+@0 -> @1 -> @0
+@0 -> @1 -> @0
+type error
+type error
+type error
+@0 -> (@0 -> @0 -> @1) -> @1
+(@0 -> @0 -> @1) -> @0 -> @1
+type error
+type error
+type error
+((@0 -> @1 -> @1) -> @2) -> @2
+((@0 -> @1 -> @0) -> @2) -> @2
+type error
+type error
+type error
+type error
+type error
+((@0 -> @0) -> @0 -> @0) -> @0 -> @0
+type error
+type error
+type error
+type error
+type error
+@0 -> @1 -> @1
+@0 -> @1 -> @0
+type error
+@0 -> @0
+@0 -> @0
+type error
+type error
+type error
+type error
+@0 -> @1 -> @1
+@0 -> @1 -> @0
+@0 -> @1 -> @0
+type error
+type error
+type error
+type error
+type error
+type error
+type error
+type error
+type error
+type error
+@0 -> @1 -> @1
+@0 -> @1 -> @0
+type error
+@0 -> @0
+@0 -> @1 -> @1
+type error
+(@0 -> @1 -> @2) -> @1 -> @0 -> @2
+type error
+((@0 -> @0) -> @1) -> (@0 -> @0) -> @1
