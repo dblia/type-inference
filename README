@@ -1,0 +1,47 @@
+Type Inference
+==============
+
+Implementation of the Hindley-Milner algorithm, a classical type inference 
+system for the lambda calculus using simple types, in Haskell. Part of the 
+Programming Languages II course.
+
+For more information visit:
+
+  http://courses.softlab.ntua.gr/pl2/2012b/
+  
+  
+Getting the Source
+==================
+
+The recommended way is to get the repos using git
+
+  $ git clone https://github.com/dblia/type-inference.git
+
+
+Building & Installing
+=====================
+
+Ofcourse, you need GHC installed in order to build and run the typeinfer 
+tool because is written in Haskell. Once you have successfully setup your
+haskell environment, run the following command to build the tool:
+
+  $ ghc --make typeinfer.hs
+  
+Run as:
+
+  $ ./typeinfer < input.txt
+  
+A couple of input examples is located under the testcases dir.
+
+
+References
+==========
+
+For more informations about the supported types and the exersize itself,
+see typeinfer-en.pdf file.
+
+
+Contributors
+============
+
+Bliablias Dimitris
